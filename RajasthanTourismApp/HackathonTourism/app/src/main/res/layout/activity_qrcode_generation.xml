@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/monumentid"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="Choose the monuments"
+            android:textSize="@dimen/city_name_size"
+            android:gravity="center"
+            />
+        <CheckBox android:id="@+id/checkbox_hawa_mahal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAWA MAHAL"
+            android:layout_below="@id/monumentid"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_jal_mahal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAL MAHAL"
+            android:layout_below="@id/checkbox_hawa_mahal"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_albert_hall_museum"
+            android:layout_below="@id/checkbox_jal_mahal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ALBERT HALL MUSEUM"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_jantar_mantar"
+            android:layout_below="@id/checkbox_albert_hall_museum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JANTAR MANTAR"
+            android:onClick="onCheckboxClicked"/>
+        <EditText
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantityid"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/checkbox_jantar_mantar"
+            android:hint="Enter Quantity"
+            android:gravity="center"
+            />
+        <EditText
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateid"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/quantityid"
+            android:hint="Enter Date in YYYY-MM-DD format"
+            android:gravity="center"
+            />
+
+        <Button
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CLICK HERE TO generate qr code"
+            android:id="@+id/button"
+            android:layout_below="@+id/dateid"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1a"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button"
+            android:paddingBottom="15dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1b"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView1a"
+            android:paddingBottom="15dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1c"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView1b"
+            android:paddingBottom="15dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1d"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView1c"
+            android:paddingBottom="15dp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

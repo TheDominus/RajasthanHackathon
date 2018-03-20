@@ -19,4 +19,12 @@ Two apps have been implemented:
 - Security and Safety:  Local Helpline numbers will be provided in the App. Tourists who are travelling together (family/friends) can create their own group in our App and their real-time location can be tracked by all members of that group via GPS.  For the security of the tourists’ belongings, our App will contain a lost and found feature which will give notifications to tourists present at that moment about the lost item.
 - Review System: Feedback forms will be provided in the App at the end of the day,  which will contain the ratings of various features such as cleanliness, food quality, security, overall experience and additional remarks for each tourist places visited. This feature will also inform the Rajasthan Government which areas to focus on.
 - Awareness:  Our App will contain information about the special attractions and upcoming events at various tourists places which will encourage tourist participation and boost tourism in Rajasthan.
-- Statistics: Daily visitor count of each tourist place will be recorded and the data will be analyzed using Machine Learning. This will help in predicting monthly tourist count in future. Data from the feedback forms will be analysed and it will help in improving the standard of Rajasthan Tourism.
+- Statistics: Daily visitor count of each tourist place will be recorded and the data will be analysed using Machine Learning. This will help in predicting monthly tourist count in future. Data from the feedback forms will be analysed and it will help in improving the standard of Rajasthan Tourism.
+
+
+### Sample login details
+
+- Email : catalyst@gmail.com
+- Password : catalyst
+
+### Server is hosted in Digital Ocean.
